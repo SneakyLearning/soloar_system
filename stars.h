@@ -1,11 +1,13 @@
 #pragma once
 #include<GL/glut.h>
+#include<iostream>
+
 class Star {
 public:
 	GLfloat radius;
 	GLfloat speed, selfSpeed;
 	GLfloat distance;
-	GLfloat rgbaColoar[4];
+	GLfloat rgbaColor[4];
 
 	Star* parentstar;
 

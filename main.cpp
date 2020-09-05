@@ -6,16 +6,16 @@
 #define WIDTH 700
 #define HEIGHT 700
 
-SolorSystem solarsystem;
+SolorSystem solorsystem;
 
 void onDisplay(void) {
-    solarsystem.onDisplay();
+    solorsystem.onDisplay();
 }
 void onUpdate(void) {
-    solarsystem.onUpdate();
+    solorsystem.onUpdate();
 }
 void onKeyboard(unsigned char key, int x, int y) {
-    solarsystem.onKeyboard(key, x, y);
+    solorsystem.onKeyboard(key, x, y);
 }
 
 int main(int argc, char* argv[]) {

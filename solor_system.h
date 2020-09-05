@@ -2,7 +2,14 @@
 #define STARS_NUM 10
 #define TIMEPAST 1
 #define SELFROTATE 3
+
+#define REST 700
+#define REST_Y (-REST)
+#define REST_Z (REST)
+//≥ı º ”Ω«Œª÷√
+
 #include "stars.h"
+#include <Windows.h>
 using namespace std;
 
 
