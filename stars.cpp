@@ -43,7 +43,7 @@ void Star::drawStar()
 		{
 			glVertex2f(distance * cos(2 * PI * i / n), distance * sin(2 * PI * i / n));
 		}
-		glEnd;
+		glEnd();
 		glRotatef(alpha, 0, 0, 1);
 		glTranslatef(distance, 0.0, 0.0);
 
